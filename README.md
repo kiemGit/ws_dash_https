@@ -1,7 +1,7 @@
 
 
 # stucture file
-	nginx-node-docker/
+	ws_dash_https/
 	├── Dockerfile
 	├── docker-compose.yml
 	├── wsdash.work.gd.key
