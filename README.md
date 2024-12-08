@@ -1,4 +1,5 @@
-
+# testing on digitalocean ip address: [146.190.99.161], domain name [wsdash.work.gd.]
+# SSL certificate, setting to DNS ip address digitalocean [146.190.99.161] domain name [wsdash.work.gd.]
 
 # stucture file
 	ws_dash_https/
