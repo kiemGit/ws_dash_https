@@ -6,9 +6,9 @@
 	├── docker-compose.yml
 	├── wsdash.work.gd.key
 	├── wsdash.work.gd.cer
-    ├── ca.cer
+	├── ca.cer
 	├── server.js
-    ├── package.json
+	├── package.json
 
 # run server
     docker-compose up -d
