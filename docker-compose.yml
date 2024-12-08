@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  ws_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      -  .:/usr/src/app
+      - /usr/src/app/node_modules  # To prevent overwriting node_modules if installed in the container
+    ports:
+      - "443:443"
+      - "80:80"
+    restart: always
+    environment:
+      - NODE_ENV=development
+

@@ -1,0 +1,14 @@
+{
+  "name": "ws dash",
+  "version": "1.0.0",
+  "description": "Node.js app websocket HTTPS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0"
+  }
+}
